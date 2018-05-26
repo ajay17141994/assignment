@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>3Frames</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+        <!-- customised css -->
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="container text-center">
+            <!--Inputfeild for date  -->
+            <label>Enter Date</label>
+            <input id="date" type=text value="" onblur="chkday(this.id)" placeholder="yyyy-mm-dd" />
+            <!--Heading tag for showing no of day  -->
+            <h4 class="outputHeading">Number of days as per input date is: <span class="output"></span></h4> 
+            <p><b>*Note: Kindly remove the focus from the input box to get the output.</b></p>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
